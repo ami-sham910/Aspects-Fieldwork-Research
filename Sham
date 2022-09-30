@@ -1,0 +1,23 @@
+#include <stdio.h>
+void goodmorning();
+void goodafternoon();
+void goodnight();
+int main()
+{
+    goodmorning();
+    goodafternoon();
+    goodnight();
+    return 0;
+}
+void goodmorning()
+{
+    printf("Good Morning Sham\n");
+}
+void goodafternoon()
+{
+    printf("Good Afternoon Sham\n");
+}
+void goodnight()
+{
+    printf("Good night Sham\n");
+}
